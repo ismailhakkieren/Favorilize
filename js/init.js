@@ -7,5 +7,16 @@
 		menuWidth: 240,
 		edge: 'left', 
 	});
-
+	
 })(jQuery);
+
+$(document).ready(function(){
+    $('#example').DataTable();
+});
+
+
+$(document).ready(function() {
+    $(window).load(function() {
+       $('select').material_select();
+    });
+});
