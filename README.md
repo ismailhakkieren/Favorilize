@@ -17,7 +17,7 @@ Built with love<br/>
 
 ### Credits
 
-jQuery Write less, do more.<br/><br/>
+jQuery Write less, do more.<br/>
 Material Design Iconic Font Material Design Iconic Font and CSS toolkit<br/>
 Font Awesome the awesome icon fonts.<br/>
 
