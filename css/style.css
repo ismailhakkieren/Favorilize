@@ -78,7 +78,9 @@ header nav ul li.no-hover:hover{background: none;}
 .col.grid-example {border: 1px solid #eee;margin: 7px 0;text-align: center;line-height: 50px;font-size: 28px;background-color: tomato;color: white;padding: 0;}
 /*GRID SYSTEM END*/
 
-
+/*ICON*/
+.favorilize-icon span{vertical-align: super;margin-left:10px;}
+/*ICON END*/
 
 /* Material Color */
 input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {border-bottom: 1px solid #616161;box-shadow: 0 1px 0 0 #616161;}
