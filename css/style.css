@@ -85,4 +85,6 @@ header nav ul li.no-hover:hover{background: none;}
 /* Material Color */
 input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {border-bottom: 1px solid #616161;box-shadow: 0 1px 0 0 #616161;}
 .dropdown-content li > a, .dropdown-content li > span {color: #616161;}
+.btn, .btn-large {background-color: #616161;}
+.btn:hover, .btn-large:hover {background-color: #2b2b2b;}
 /* Material Color END */
