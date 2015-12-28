@@ -8,7 +8,8 @@
     <meta name="description" content="Favorilize is free material design admin template that personal and commercial use. It is inspired by powerful-lightweight fully responsive retina display on compatible admin template based on Material Design">
     <meta name="keywords" content="Favorilize, admin template, dashboard template, flat admin template, responsive admin template,">
     <title>Favorilize- Favorilize Design Admin Template</title>
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/dataTables.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">  
 </head>
 
@@ -47,7 +48,7 @@
                     </li>
                     <li class="no-padding">
                         <ul class="collapsible collapsible-accordion">
-                            <li class="bold"><a class="collapsible-header waves-effect waves-light-blue"><i class="mdi-content-add-box"></i> CSS</a>
+                           <li class="bold"><a class="collapsible-header waves-effect waves-light-blue"><i class="mdi-content-add-box"></i> CSS</a>
                                 <div class="collapsible-body">
                                     <ul>
                                         <li><a href="typography.html" title="Favorilize Typography">Typography</a></li>                                     
@@ -157,13 +158,45 @@
                 </ul>
             </aside>
             <section id="content">
-				
-				content
+				<div class="breadcrumbs grey darken-2">
+					<div class="row">
+						<div class="col s12 m12 l12">
+							<h5>Favorilize Shadow</h5>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div id="shadow" class="section scrollspy">
+						<p class="caption">In material design, everything should have a certain z-depth that determines how far raised or close to the page the element is.</p>
+						<p>You can easily apply this shadow effect by adding a <code class=" language-markup">class="z-depth-2"</code> to an HTML tag. Alternatively you can extend any of these shadows with Sass using <code class=" language-scss"><span class="token keyword">@extend</span> .z-depth-2</code>. A <code class=" language-scss">z-depth-0</code> can be used to remove shadows from elements that have z-depths by default. </p>
+						<div class="row">
+							<div class="col s12 m4 l2">
+								<p class="z-depth-0 shadow-demo"></p>
+							</div>
+							<div class="col s12 m4 l2">
+								<p class="z-depth-1 shadow-demo"></p>
+							</div>
+							<div class="col s12 m4 l2">
+								<p class="z-depth-2 shadow-demo"></p>
+							</div>
+							<div class="col s12 m4 l2">
+								<p class="z-depth-3 shadow-demo"></p>
+							</div>
+							<div class="col s12 m4 l2">
+								<p class="z-depth-4 shadow-demo"></p>
+							</div>
+							<div class="col s12 m4 l2">
+								<p class="z-depth-5 shadow-demo"></p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>
 	</div>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>    
     <script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/dataTables.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
 </body>
 </html>

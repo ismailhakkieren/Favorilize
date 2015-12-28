@@ -82,6 +82,11 @@ header nav ul li.no-hover:hover{background: none;}
 .favorilize-icon span{vertical-align: super;margin-left:10px;}
 /*ICON END*/
 
+/*SHADOW*/
+.shadow-demo {background-color: #29b6f6 ;width: 100px;height: 100px;margin: 20px auto;}
+/*SHADOW END*/
+
+
 /* Material Color */
 input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {border-bottom: 1px solid #616161;box-shadow: 0 1px 0 0 #616161;}
 .dropdown-content li > a, .dropdown-content li > span {color: #616161;}
