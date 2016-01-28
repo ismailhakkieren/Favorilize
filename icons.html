@@ -8,25 +8,39 @@
     <meta name="description" content="Favorilize is free material design admin template that personal and commercial use. It is inspired by powerful-lightweight fully responsive retina display on compatible admin template based on Material Design">
     <meta name="keywords" content="Favorilize, admin template, dashboard template, flat admin template, responsive admin template,">
     <title>Favorilize- Favorilize Design Admin Template</title>
+	<link href="css/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="css/dataTables.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">  
 </head>
 
 <body>
     <header id="header" class="page-topbar">
         <div class="navbar-fixed">
-            <nav class=" light-blue lighten-1">
+            <nav class="grey darken-2">
                 <div class="nav-wrapper">                    
                     <ul class="left">                                            
-                      <li class="no-hover"><a href="#" data-activates="slide-out" class="menu-sidebar-collapse btn-floating btn-flat btn-medium waves-effect waves-light light-blue"><i class="mdi-navigation-menu" ></i></a></li>
-                      <li>
-						<h1 class="logo-wrapper"><a href="index.html" alt="Favorilize Design Admin Template" class="brand-logo darken-1"><img src="images/Favorilize-logo.png" alt="Favorilizelogo"></a> <span class="logo-text">Favorilize-logo</span></h1></li>
+                     <li class="no-hover"><a href="#" data-activates="slide-out" class="menu-sidebar-collapse btn-floating btn-flat btn-medium waves-effect waves-light grey darken-3"><i class="mdi-navigation-menu" ></i></a></li>
+                     <li>
+						<h1 class="logo-wrapper"><a href="index.html" alt="Favorilize Design Admin Template" class="brand-logo darken-1"><img src="images/Favorilize-logo.png" alt="Favorilizelogo"></a> <span class="logo-text">Favorilize-logo</span></h1>
+					</li>
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
                         <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Favorilize Template Search"/>
                     </div>
+					<ul class="right hide-on-med-and-down profil">
+						<li>
+							<a class="dropdown-button-profil" href="#!" data-activates="dropdown1">
+								<img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image" alt="İsmail Hakkı EREN">
+								<span>İsmail Hakkı EREN</a>
+							</a>
+							<ul id="dropdown1" class="dropdown-content profil-detay">
+								<li><a href="#!"><i class="mdi-action-account-circle"></i><span>My Profile</span></a></li>
+								<li><a href="#!"><i class="mdi-action-list"></i><span>My Tasks</span></a></li>
+								<li><a href="#!"><i class="mdi-action-highlight-remove"></i><span>Log Out</span></a></li>
+							</ul>
+						</li>
+					</ul>
                 </div>
             </nav>
         </div>
@@ -35,20 +49,15 @@
         <div class="wrapper">
             <aside  class="left-sidebar">
                 <ul id="slide-out" class="side-nav leftside-navigation">
-                    <li class="user-details  light-blue darken-1">
+                    <li class=" red darken-1">
                         <div class="row">
-                            <div class="col col s4 m4 l4">
-                                <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image" alt="İsmail Hakkı EREN">
-                            </div>
-                            <div class="col col s8 m8 l8">
-                                <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" title="ismail hakkı eren">İsmail Hakkı EREN<i class="mdi-navigation-arrow-drop-down right"></i></a>
-                                <p class="user-roal">Administrator</p>
-                            </div>
+                           <span class="menu-title white-text">Favorilize Admin Template</span>
+						   <div class="divider"></div>
                         </div>
                     </li>
                     <li class="no-padding">
                         <ul class="collapsible collapsible-accordion">
-                           <li class="bold"><a class="collapsible-header waves-effect waves-light-blue"><i class="mdi-content-add-box"></i> CSS</a>
+                            <li class="bold"><a class="collapsible-header waves-effect waves-light-blue"><i class="mdi-content-add-box"></i> CSS</a>
                                 <div class="collapsible-body">
                                     <ul>
 										<li><a href="color.html" title="Favorilize Color">Color</a></li>
@@ -56,6 +65,7 @@
                                         <li><a href="icons.html" title="Favorilize Icons">Icons</a></li>
 										<li><a href="shadow.html" title="Favorilize Shadow">Shadow</a></li>
                                         <li><a href="media.html" title="Favorilize Media">Media</a></li>
+										<li><a href="helpers.html" title="Favorilize Helpers">Helpers</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -138,7 +148,7 @@
 							<i class="mdi-image-grid-on"></i> Grid
 						</a>
                     </li>
-                   <!--
+                   <!-- 
                     <li>
 						<a href="#"><i class="mdi-communication-live-help"></i> Helpers</a>
                     </li>           
@@ -154,7 +164,7 @@
                 </ul>
             </aside>
             <section id="content">
-				<div class="breadcrumbs grey darken-2">
+				<div class="breadcrumbs red darken-1">
 					<div class="row">
 						<div class="col s12 m12 l12">
 							<h5>Favorilize Icons</h5>
@@ -162,13 +172,25 @@
 					</div>
 				</div>
 				<div class="container">
-					<div class="col s12 m12 l12 favorilize-icon">
+					<div class="col s12 m12 l12 ">
 						<div id="action" class="row scrollspy">
 							<p class="caption">We have included 740 Material Design Icons courtesy of Google. You can download them directly from the <a href="https://github.com/google/material-design-icons">Material Design specs</a>. The icon font was made and packed by <a href="http://fezvrasta.github.io/bootstrap-material-design/">Bootstrap Material Design</a>.</p>
 							<h4>Usage</h4>
 							<p>To use these icons, just place the name of the icon into the class of an i tag</p>
+							<pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://fonts.googleapis.com/icon?family<span class="token punctuation">=</span>Material+Icons<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
 							<h4>Sizes</h4>
 							<p>To control the size of the icon, change the <code class=" language-css"><strong class="token property">font-size</strong><strong class="token punctuation">:</strong> 30px</code> property of your icon. Optionally you can use preset classes as shown below.</p>
+							<pre class=" language-markup"><code class=" language-markup">
+      <span class="token comment" spellcheck="true">&lt;!--
+      Sizes:
+      tiny: 1rem
+      small: 2rem
+      medium: 4rem
+      large: 6rem
+      --&gt;</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>large material-icons<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>insert_chart<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+            </code></pre>
 							<div class="row">
 								<div class="center-align">
 									<div class="col s12 m3 l3"><i class="mdi-editor-insert-chart tiny icon-demo"></i><br><p>Tiny</p></div>
@@ -177,7 +199,7 @@
 									<div class="col s12 m3 l3"><i class="mdi-editor-insert-chart large icon-demo"></i><br><p>Large</p></div>
 								</div>
 							</div>
-							<div class="row icon-container">
+							<div class="row icon-container favorilize-icon">
 								<h4 class="light col s12">Action</h4><br>
 								<div class="icon-preview col s12 m6 l3"><i class="mdi-action-3d-rotation"></i><span>mdi-action-3d-rotation</span></div>
 								<div class="icon-preview col s12 m6 l3"><i class="mdi-action-accessibility"></i><span>mdi-action-accessibility</span></div>
@@ -340,12 +362,12 @@
 								<div class="icon-preview col s12 m6 l3"><i class="mdi-action-work"></i><span>mdi-action-work</span></div>
 							</div>
 						</div>
-						<div id="alert" class="row icon-container scrollspy">
+						<div id="alert" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Alert</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-alert-error"></i><span>mdi-alert-error</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-alert-warning"></i><span>mdi-alert-warning</span></div>
 						</div>
-						<div id="av" class="row icon-container scrollspy">
+						<div id="av" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">AV</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-av-album"></i><span>mdi-av-album</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-av-timer"></i><span>mdi-av-timer</span></div>
@@ -398,7 +420,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-av-volume-up"></i><span>mdi-av-volume-up</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-av-web"></i><span>mdi-av-web</span></div>
 						</div>
-						<div id="communication" class="row icon-container scrollspy">
+						<div id="communication" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Communication</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-communication-business"></i><span>mdi-communication-business</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-communication-call"></i><span>mdi-communication-call</span></div>
@@ -440,7 +462,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-communication-voicemail"></i><span>mdi-communication-voicemail</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-communication-vpn-key"></i><span>mdi-communication-vpn-key</span></div>
 						</div>
-						<div id="content" class="row icon-container scrollspy">
+						<div id="content" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Content</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-content-add"></i><span>mdi-content-add</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-content-add-box"></i><span>mdi-content-add-box</span></div>
@@ -477,7 +499,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-content-text-format"></i><span>mdi-content-text-format</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-content-undo"></i><span>mdi-content-undo</span></div>
 						</div>
-						<div id="device" class="row icon-container scrollspy">
+						<div id="device" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Device</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-device-access-alarm"></i><span>mdi-device-access-alarm</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-device-access-alarms"></i><span>mdi-device-access-alarms</span></div>
@@ -555,7 +577,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-device-wifi-lock"></i><span>mdi-device-wifi-lock</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-device-wifi-tethering"></i><span>mdi-device-wifi-tethering</span></div>
 						</div>
-						<div id="editor" class="row icon-container scrollspy">
+						<div id="editor" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Editor</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-editor-attach-file"></i><span>mdi-editor-attach-file</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-editor-attach-money"></i><span>mdi-editor-attach-money</span></div>
@@ -610,7 +632,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-editor-vertical-align-top"></i><span>mdi-editor-vertical-align-top</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-editor-wrap-text"></i><span>mdi-editor-wrap-text</span></div>
 						</div>
-						<div id="file" class="row icon-container scrollspy">
+						<div id="file" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">File</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-file-attachment"></i><span>mdi-file-attachment</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-file-cloud"></i><span>mdi-file-cloud</span></div>
@@ -626,7 +648,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-file-folder-open"></i><span>mdi-file-folder-open</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-file-folder-shared"></i><span>mdi-file-folder-shared</span></div>
 						</div>
-						<div id="hardware" class="row icon-container scrollspy">
+						<div id="hardware" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Hardware</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-hardware-cast"></i><span>mdi-hardware-cast</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-hardware-cast-connected"></i><span>mdi-hardware-cast-connected</span></div>
@@ -670,7 +692,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-hardware-tv"></i><span>mdi-hardware-tv</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-hardware-watch"></i><span>mdi-hardware-watch</span></div>
 						</div>
-						<div id="image" class="row icon-container scrollspy">
+						<div id="image" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Image</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-image-add-to-photos"></i><span>mdi-image-add-to-photos</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-image-adjust"></i><span>mdi-image-adjust</span></div>
@@ -810,7 +832,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-image-wb-irradescent"></i><span>mdi-image-wb-irradescent</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-image-wb-sunny"></i><span>mdi-image-wb-sunny</span></div>
 						</div>
-						<div id="maps" class="row icon-container scrollspy">
+						<div id="maps" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Maps</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-maps-beenhere"></i><span>mdi-maps-beenhere</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-maps-directions"></i><span>mdi-maps-directions</span></div>
@@ -868,7 +890,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-maps-terrain"></i><span>mdi-maps-terrain</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-maps-traffic"></i><span>mdi-maps-traffic</span></div>
 						</div>
-						<div id="navigation" class="row icon-container scrollspy">
+						<div id="navigation" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Navigation</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-navigation-apps"></i><span>mdi-navigation-apps</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-navigation-arrow-back"></i><span>mdi-navigation-arrow-back</span></div>
@@ -892,7 +914,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-navigation-unfold-less"></i><span>mdi-navigation-unfold-less</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-navigation-unfold-more"></i><span>mdi-navigation-unfold-more</span></div>
 						</div>
-						<div id="notifications" class="row icon-container scrollspy">
+						<div id="notifications" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Notifications</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-notification-adb"></i><span>mdi-notification-adb</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-notification-bluetooth-audio"></i><span>mdi-notification-bluetooth-audio</span></div>
@@ -929,7 +951,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-notification-voice-chat"></i><span>mdi-notification-voice-chat</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-notification-vpn-lock"></i><span>mdi-notification-vpn-lock</span></div>
 						</div>
-						<div id="social" class="row icon-container scrollspy">
+						<div id="social" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Social</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-social-cake"></i><span>mdi-social-cake</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-social-domain"></i><span>mdi-social-domain</span></div>
@@ -956,7 +978,7 @@
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-social-share"></i><span>mdi-social-share</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-social-whatshot"></i><span>mdi-social-whatshot</span></div>
 						</div>
-						<div id="toggle" class="row icon-container scrollspy">
+						<div id="toggle" class="row icon-container scrollspy favorilize-icon">
 							<h4 class="light col s12">Toggle</h4>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-toggle-check-box"></i><span>mdi-toggle-check-box</span></div>
 							<div class="icon-preview col s12 m6 l3"><i class="mdi-toggle-check-box-outline-blank"></i><span>mdi-toggle-check-box-outline-blank</span></div>
@@ -966,6 +988,11 @@
 					</div>
 				</div>
 			</section>
+			<footer class="page-footer grey darken-2 ">
+				<div class="footer-copyright">
+					<div class="container">Designed by İsmail Hakkı EREN | Powered by Material Design</div>
+				</div>
+			</footer>
 		</div>
 	</div>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>    

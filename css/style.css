@@ -11,7 +11,7 @@ header .brand-logo {margin: 1px 0px;padding: 0 20px;}
 header .brand-logo img{width: 172px;}
 header .menu-sidebar-collapse{margin: 0 10px;}
 header .menu-sidebar-collapse i{line-height: 36px !important;}
-header .header-search-wrapper {width: 100%;margin: 10px auto 0px 240px;width: calc(100% - 600px);height: 40px;display: inline-block;position: relative;}
+header .header-search-wrapper {width: 100%;margin: 10px auto 0px 240px;width: calc(100% - 700px);height: 40px;display: inline-block;position: relative;}
 header .header-search-wrapper i {position: absolute;top: 0;font-size: 24px;top: 6px;left: 24px;line-height:32px !important;-webkit-transition: color 200ms ease;transition: color 200ms ease;}
 header input.header-search-input {display: block;padding: 8px 8px 8px 72px;width: 100%;background: rgba(255,255,255,0.3);height: 24px;-webkit-transition: all 200ms ease;transition: all 200ms ease;border: none;font-size: 16px;appearance: textfield;font-weight: 400;outline: none;border-radius: 3px;}
 header .header-search-input::-webkit-input-placeholder{color:#fff;font-size:16px;font-weight:400}
@@ -31,7 +31,13 @@ header .search-out{display: none;}
 header .search-out-text{border-bottom: 1px solid #fff !important;}
 header .search-out input[type=text]:focus:not([readonly]){border-bottom: 1px solid #fff !important;box-shadow:none;}
 header nav ul li.no-hover:hover{background: none;}
+.menu-title{padding-left: 15px;font-weight: bold;font-size: 16px;}
 
+.profil{width: 180px;height:64px;overflow:hidden;}
+.profil li{width:100%;}
+.profil li a span{width: 180px;height:64px;overflow:hidden;white-space: nowrap;text-overflow: ellipsis;font-size:12px;}
+.profile-image{width:30px;float: left;margin-top: 16px;margin-left: 6px;margin-right: 6px;}
+.profil-detay i {width:40px;float:left;}
 @media only screen and (max-width: 992px) {
   nav .nav-wrapper {text-align: center;}
   nav .nav-wrapper a.page-title {font-size: 36px;}
@@ -89,6 +95,29 @@ header nav ul li.no-hover:hover{background: none;}
 /*COLOR*/
 .margin10{margin-bottom:50px;}
 /*COLOR END*/
+
+/*HELPERS*/
+.valign-demo {
+    height: 400px;
+    background-color: #ddd;
+}
+.valign-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.talign-demo {
+    height: 100px;
+    background-color: #ddd;
+}
+.hoverable:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*HELPERS END*/
 
 /* Material Color */
 input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {border-bottom: 1px solid #616161;box-shadow: 0 1px 0 0 #616161;}

@@ -8,25 +8,39 @@
     <meta name="description" content="Favorilize is free material design admin template that personal and commercial use. It is inspired by powerful-lightweight fully responsive retina display on compatible admin template based on Material Design">
     <meta name="keywords" content="Favorilize, admin template, dashboard template, flat admin template, responsive admin template,">
     <title>Favorilize- Favorilize Design Admin Template</title>
+	<link href="css/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
 	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="css/dataTables.min.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">  
 </head>
 
 <body>
     <header id="header" class="page-topbar">
         <div class="navbar-fixed">
-            <nav class=" light-blue lighten-1">
+            <nav class="grey darken-2">
                 <div class="nav-wrapper">                    
                     <ul class="left">                                            
-                      <li class="no-hover"><a href="#" data-activates="slide-out" class="menu-sidebar-collapse btn-floating btn-flat btn-medium waves-effect waves-light light-blue"><i class="mdi-navigation-menu" ></i></a></li>
-                      <li>
-						<h1 class="logo-wrapper"><a href="index.html" alt="Favorilize Design Admin Template" class="brand-logo darken-1"><img src="images/Favorilize-logo.png" alt="Favorilizelogo"></a> <span class="logo-text">Favorilize-logo</span></h1></li>
+                     <li class="no-hover"><a href="#" data-activates="slide-out" class="menu-sidebar-collapse btn-floating btn-flat btn-medium waves-effect waves-light grey darken-3"><i class="mdi-navigation-menu" ></i></a></li>
+                     <li>
+						<h1 class="logo-wrapper"><a href="index.html" alt="Favorilize Design Admin Template" class="brand-logo darken-1"><img src="images/Favorilize-logo.png" alt="Favorilizelogo"></a> <span class="logo-text">Favorilize-logo</span></h1>
+					</li>
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
                         <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Favorilize Template Search"/>
                     </div>
+					<ul class="right hide-on-med-and-down profil">
+						<li>
+							<a class="dropdown-button-profil" href="#!" data-activates="dropdown1">
+								<img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image" alt="İsmail Hakkı EREN">
+								<span>İsmail Hakkı EREN</a>
+							</a>
+							<ul id="dropdown1" class="dropdown-content profil-detay">
+								<li><a href="#!"><i class="mdi-action-account-circle"></i><span>My Profile</span></a></li>
+								<li><a href="#!"><i class="mdi-action-list"></i><span>My Tasks</span></a></li>
+								<li><a href="#!"><i class="mdi-action-highlight-remove"></i><span>Log Out</span></a></li>
+							</ul>
+						</li>
+					</ul>
                 </div>
             </nav>
         </div>
@@ -35,20 +49,15 @@
         <div class="wrapper">
             <aside  class="left-sidebar">
                 <ul id="slide-out" class="side-nav leftside-navigation">
-                    <li class="user-details  light-blue darken-1">
+                    <li class=" red darken-1">
                         <div class="row">
-                            <div class="col col s4 m4 l4">
-                                <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image" alt="İsmail Hakkı EREN">
-                            </div>
-                            <div class="col col s8 m8 l8">
-                                <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" title="ismail hakkı eren">İsmail Hakkı EREN<i class="mdi-navigation-arrow-drop-down right"></i></a>
-                                <p class="user-roal">Administrator</p>
-                            </div>
+                           <span class="menu-title white-text">Favorilize Admin Template</span>
+						   <div class="divider"></div>
                         </div>
                     </li>
                     <li class="no-padding">
                         <ul class="collapsible collapsible-accordion">
-                           <li class="bold"><a class="collapsible-header waves-effect waves-light-blue"><i class="mdi-content-add-box"></i> CSS</a>
+                            <li class="bold"><a class="collapsible-header waves-effect waves-light-blue"><i class="mdi-content-add-box"></i> CSS</a>
                                 <div class="collapsible-body">
                                     <ul>
 										<li><a href="color.html" title="Favorilize Color">Color</a></li>
@@ -56,6 +65,7 @@
                                         <li><a href="icons.html" title="Favorilize Icons">Icons</a></li>
 										<li><a href="shadow.html" title="Favorilize Shadow">Shadow</a></li>
                                         <li><a href="media.html" title="Favorilize Media">Media</a></li>
+										<li><a href="helpers.html" title="Favorilize Helpers">Helpers</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -154,7 +164,7 @@
                 </ul>
             </aside>
             <section id="content">
-				<div class="breadcrumbs grey darken-2">
+				<div class="breadcrumbs red darken-1">
 					<div class="row">
 						<div class="col s12 m12 l12">
 							<h5>Favorilize Media</h5>
@@ -167,6 +177,9 @@
 						<p class="caption">Images can be styled in different ways using Materialize</p>
 						<h4>Responsive Images</h4>
 						<p>To make images resize responsively to page width, you can add the class <code class=" language-markup">responsive-img</code> to your image tag. It will now have a <code class=" language-markup">max-width: 100%</code> and <code class=" language-markup">height:auto</code>.</p>
+						<pre class=" language-markup"><code class=" language-markup">
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>responsive-img<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ismailhakkieren.png<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
 						<h4>Circular images</h4>
 						<div class="col s12 m8 offset-m2 l6 offset-l3">
 						  <div class="card-panel grey lighten-5 z-depth-1">
@@ -187,6 +200,22 @@
 							<p>To make images appear circular, simply add <code class=" language-markup">class="circle"</code> to them</p>
 						  </div>
 						</div>
+						<pre class=" language-markup"><code class=" language-markup">
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s12 m8 offset-m2 l6 offset-l3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>card-panel grey lighten-5 z-depth-1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row valign-wrapper<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>images/yuna.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>circle responsive-img<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> <span class="token comment" spellcheck="true">&lt;!-- notice the "circle" class --&gt;</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>col s10<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>black-text<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            </code></pre>
 					</div>
 					<div id="videos" class="section scrollspy">
 						<h2 class="header">Videos</h2>
@@ -196,14 +225,29 @@
 						<div class="video-container">
 						  <iframe width="853" height="480" src="https://www.youtube.com/embed/hUpwjZsfHrM" frameborder="0" allowfullscreen=""></iframe>
 						</div>
+						<pre class=" language-markup"><code class=" language-markup">
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video-container<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>iframe</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>853<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>480<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://www.youtube.com/embed/hUpwjZsfHrM<span class="token punctuation">=</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">frameborder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">allowfullscreen</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>iframe</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
 						<h4>Responsive Videos</h4>
 						<p>To make your HTML5 Videos responsive just add the class <code class=" language-markup">responsive-video</code> to the video tag.</p>
 						<video width="100%" controls="">
 							<source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4">
 						</video>
+						<pre class=" language-markup"><code class=" language-markup">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>video</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>responsive-video<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>source</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>movie.mp4<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>video</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
 					</div>
 				</div>
 			</section>
+			<footer class="page-footer grey darken-2 ">
+				<div class="footer-copyright">
+					<div class="container">Designed by İsmail Hakkı EREN | Powered by Material Design</div>
+				</div>
+			</footer>
 		</div>
 	</div>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>    

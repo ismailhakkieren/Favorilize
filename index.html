@@ -15,17 +15,31 @@
 <body>
     <header id="header" class="page-topbar">
         <div class="navbar-fixed">
-            <nav class=" light-blue lighten-1">
+            <nav class="grey darken-2">
                 <div class="nav-wrapper">                    
                     <ul class="left">                                            
-                      <li class="no-hover"><a href="#" data-activates="slide-out" class="menu-sidebar-collapse btn-floating btn-flat btn-medium waves-effect waves-light light-blue"><i class="mdi-navigation-menu" ></i></a></li>
-                      <li>
-						<h1 class="logo-wrapper"><a href="index.html" alt="Favorilize Design Admin Template" class="brand-logo darken-1"><img src="images/Favorilize-logo.png" alt="Favorilizelogo"></a> <span class="logo-text">Favorilize-logo</span></h1></li>
+                     <li class="no-hover"><a href="#" data-activates="slide-out" class="menu-sidebar-collapse btn-floating btn-flat btn-medium waves-effect waves-light grey darken-3"><i class="mdi-navigation-menu" ></i></a></li>
+                     <li>
+						<h1 class="logo-wrapper"><a href="index.html" alt="Favorilize Design Admin Template" class="brand-logo darken-1"><img src="images/Favorilize-logo.png" alt="Favorilizelogo"></a> <span class="logo-text">Favorilize-logo</span></h1>
+					</li>
                     </ul>
                     <div class="header-search-wrapper hide-on-med-and-down">
                         <i class="mdi-action-search"></i>
                         <input type="text" name="Search" class="header-search-input z-depth-2" placeholder="Favorilize Template Search"/>
                     </div>
+					<ul class="right hide-on-med-and-down profil">
+						<li>
+							<a class="dropdown-button-profil" href="#!" data-activates="dropdown1">
+								<img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image" alt="İsmail Hakkı EREN">
+								<span>İsmail Hakkı EREN</a>
+							</a>
+							<ul id="dropdown1" class="dropdown-content profil-detay">
+								<li><a href="#!"><i class="mdi-action-account-circle"></i><span>My Profile</span></a></li>
+								<li><a href="#!"><i class="mdi-action-list"></i><span>My Tasks</span></a></li>
+								<li><a href="#!"><i class="mdi-action-highlight-remove"></i><span>Log Out</span></a></li>
+							</ul>
+						</li>
+					</ul>
                 </div>
             </nav>
         </div>
@@ -34,15 +48,10 @@
         <div class="wrapper">
             <aside  class="left-sidebar">
                 <ul id="slide-out" class="side-nav leftside-navigation">
-                    <li class="user-details  light-blue darken-1">
+                    <li class=" red darken-1">
                         <div class="row">
-                            <div class="col col s4 m4 l4">
-                                <img src="images/avatar.jpg" alt="" class="circle responsive-img valign profile-image" alt="İsmail Hakkı EREN">
-                            </div>
-                            <div class="col col s8 m8 l8">
-                                <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" title="ismail hakkı eren">İsmail Hakkı EREN<i class="mdi-navigation-arrow-drop-down right"></i></a>
-                                <p class="user-roal">Administrator</p>
-                            </div>
+                           <span class="menu-title white-text">Favorilize Admin Template</span>
+						   <div class="divider"></div>
                         </div>
                     </li>
                     <li class="no-padding">
@@ -55,6 +64,7 @@
                                         <li><a href="icons.html" title="Favorilize Icons">Icons</a></li>
 										<li><a href="shadow.html" title="Favorilize Shadow">Shadow</a></li>
                                         <li><a href="media.html" title="Favorilize Media">Media</a></li>
+										<li><a href="helpers.html" title="Favorilize Helpers">Helpers</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -156,10 +166,16 @@
 				
 				content
 			</section>
+			<footer class="page-footer grey darken-2 ">
+				<div class="footer-copyright">
+					<div class="container">Designed by İsmail Hakkı EREN | Powered by Material Design</div>
+				</div>
+			</footer>
 		</div>
 	</div>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>    
     <script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/dataTables.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
 </body>
 </html>
